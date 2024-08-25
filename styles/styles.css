@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: roboto;    
@@ -43,8 +49,8 @@ a, li {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 80px;
+    justify-content: space-between;
+    padding: 40px 100px;
     gap: 20px;
 }
 
@@ -53,7 +59,7 @@ a, li {
     background-color: #1F2937;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     max-height: 500px;
 }
 
@@ -69,12 +75,44 @@ a, li {
 }
 
 .hero-image {
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     display: flex;
+    justify-content: center;
 }
 
 .hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
 
+.random-container {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+}
 
+.h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
