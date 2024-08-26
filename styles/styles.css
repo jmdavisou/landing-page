@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px 100px;
+    padding: 20px 100px;
     gap: 10px;
     
 }
@@ -52,6 +52,7 @@ a, li {
     justify-content: space-between;
     padding: 40px 100px;
     gap: 20px;
+    max-height: 500px;
 }
 
 .hero {
@@ -60,11 +61,14 @@ a, li {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 5px;
-    max-height: 500px;
 }
 
 .hero-text {
-    width: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .secondary-text {
@@ -87,7 +91,7 @@ a, li {
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 8px;
-    margin: auto;
+    margin-right: auto;
 }
 
 .random-container {
@@ -106,7 +110,7 @@ a, li {
 
 .info-container {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     justify-content: center;
 }
 
@@ -137,13 +141,14 @@ a, li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 250px;
+    gap: 10px;
 
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
